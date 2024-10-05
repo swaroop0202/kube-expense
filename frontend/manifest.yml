@@ -112,7 +112,7 @@ spec:
     matchLabels:
       component: frontend
       project: expense
-      tier: web
+      tier: App
       environment: dev
   # below is the pod definition
   template:
