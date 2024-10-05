@@ -127,7 +127,7 @@ spec:
       - name: frontend
         image: swaroop02/frontend:1.0
         volumeMounts:
-        - name: nginx-config
+        - name: nginx-conf
           mountPath: /etc/nginx/nginx.conf
           subPath: nginx.conf
           readOnly: true
