@@ -103,7 +103,7 @@ metadata:
   labels:
     component: frontend
     project: expense
-    tier: web
+    tier: App
     environment: dev
 spec:
   # modify replicas according to your case
@@ -120,7 +120,7 @@ spec:
       labels:
          component: frontend
          project: expense
-         tier: web
+         tier: App
          environment: dev
     spec:
       containers:
